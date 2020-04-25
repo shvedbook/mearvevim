@@ -84,7 +84,7 @@ function modelCalculation(thanim, modelpedogogi, eikef, ramatoryanut, mashavimka
             numOfModels++;
             $("#aiAnswer").append("<div>חברותא</div>");
         }
-        alert(thanim)
+        
         if (thanim == 3) {
             numOfModels++;
             $("#aiAnswer").append("<div>קבוצת קריאה - הוא המודל המוממלץ לקורסי העשרה</div>");
