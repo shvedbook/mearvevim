@@ -80,14 +80,14 @@ function modelCalculation(thanim, modelpedogogi, eikef, ramatoryanut, mashavimka
             numOfModels++;
             $("#aiAnswer").append("<div>קבוצת אימון</div>");
         }
-        if ((thanim > 1) && (modelpedogogi == 2) && (ramatoryanut > 1) && (mashavimkaiamim > 1) && (eikef == 1)) {
+        if ((thanim > 1) && (modelpedogogi == 2) && (ramatoryanut > 1) && (mashavimkaiamim > 1) && (eikef == 3)) {
             numOfModels++;
             $("#aiAnswer").append("<div>חברותא</div>");
         }
         
         if (thanim == 3) {
             numOfModels++;
-            $("#aiAnswer").append("<div>קבוצת קריאה - הוא המודל המוממלץ לקורסי העשרה</div>");
+            $("#aiAnswer").append("<div>קבוצת קריאה הוא מודל מומלץ לרוב קורסי העשרה</div>");
         }
         if ((thanim > 1) && (modelpedogogi == 2) && (ramatoryanut > 1) && (mashavimkaiamim > 1) && (eikef > 1)) {
             numOfModels++;
